@@ -7,7 +7,7 @@ class item():
       self.value = value
 
    def __str__(self):
-      return "{}\n=====\n{}\nValue: {}\n.format(self.name, self.description, self.value):
+      return "{}\n=====\n{}\nValue: {}\n.format: {}".self.name, self.description, self.value
 
 class weapon(Item):
    def __init__(self, name, description, value, damage):
@@ -22,7 +22,7 @@ class wand(Weapon):
    def __init__(self):
       super().__init__(name="wand",
                        description="A stick sized wand, suitable for a wizard."
-                       value=0,
+                       value=0
                        damage=15)
 
 class sword(Weapon):
